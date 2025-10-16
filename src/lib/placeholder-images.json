@@ -1,3 +1,22 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "blog1",
+      "description": "A person writing in a notebook during a meeting.",
+      "imageUrl": "https://picsum.photos/seed/blog1/600/400",
+      "imageHint": "business meeting"
+    },
+    {
+      "id": "blog2",
+      "description": "A group of people collaborating around a table.",
+      "imageUrl": "https://picsum.photos/seed/blog2/600/400",
+      "imageHint": "team collaboration"
+    },
+    {
+      "id": "blog3",
+      "description": "A person looking thoughtful in an office environment.",
+      "imageUrl": "https://picsum.photos/seed/blog3/600/400",
+      "imageHint": "leadership thoughtful"
+    }
+  ]
 }
