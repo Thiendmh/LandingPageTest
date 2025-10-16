@@ -13,7 +13,7 @@ import { Faq } from '@/components/landing/faq';
 import { Blog } from '@/components/landing/blog';
 import { ContactForm } from '@/components/landing/contact-form';
 import { Footer } from '@/components/landing/footer';
-import { Separator } from '@/components/ui/separator';
+import { AnimatedSection } from '@/components/landing/animated-section';
 import { BrainCircuit, Target, Handshake, Users, ClipboardCheck, Building, GraduationCap, Briefcase, BotMessageSquare } from 'lucide-react';
 
 const leadershipSolutions: SolutionCardProps[] = [
@@ -78,19 +78,45 @@ export default function Home() {
     <div className="flex min-h-screen flex-col bg-background">
       <Header />
       <main className="flex-1">
-        <Hero />
-        <ProfileIntro />
-        <Solutions id="solutions-leader" title="Giải pháp cho Lãnh đạo, Đội nhóm & Tổ chức" solutions={leadershipSolutions} />
-        <Solutions id="solutions-hr" title="Giải pháp cho HR L&D" solutions={hrLDSolutions} />
-        <Experience />
-        <Education />
-        <About />
-        <CaseHighlights />
-        <Testimonials />
-        <PrivateNote />
-        <Faq />
-        <Blog />
-        <ContactForm />
+        <AnimatedSection>
+          <Hero />
+        </AnimatedSection>
+        <AnimatedSection>
+          <ProfileIntro />
+        </AnimatedSection>
+        <AnimatedSection>
+          <Solutions id="solutions-leader" title="Giải pháp cho Lãnh đạo, Đội nhóm & Tổ chức" solutions={leadershipSolutions} />
+        </AnimatedSection>
+        <AnimatedSection>
+          <Solutions id="solutions-hr" title="Giải pháp cho HR L&D" solutions={hrLDSolutions} />
+        </AnimatedSection>
+        <AnimatedSection>
+          <Experience />
+        </AnimatedSection>
+        <AnimatedSection>
+          <Education />
+        </AnimatedSection>
+        <AnimatedSection>
+          <About />
+        </AnimatedSection>
+        <AnimatedSection>
+          <CaseHighlights />
+        </AnimatedSection>
+        <AnimatedSection>
+          <Testimonials />
+        </AnimatedSection>
+        <AnimatedSection>
+          <PrivateNote />
+        </AnimatedSection>
+        <AnimatedSection>
+          <Faq />
+        </AnimatedSection>
+        <AnimatedSection>
+          <Blog />
+        </AnimatedSection>
+        <AnimatedSection>
+          <ContactForm />
+        </AnimatedSection>
       </main>
       <Footer />
     </div>
