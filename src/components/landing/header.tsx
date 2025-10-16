@@ -37,7 +37,7 @@ export function Header() {
       <div className="container mx-auto flex h-20 items-center justify-between px-4">
         <Link href="/" className="flex items-center gap-2 font-headline text-xl font-bold text-primary">
           <Star className="size-6" />
-          <span>Minh Hạnh</span>
+          <span>Coach Minh Hạnh</span>
         </Link>
         <nav className="hidden items-center gap-6 md:flex">
           {navLinks.map((link) => (

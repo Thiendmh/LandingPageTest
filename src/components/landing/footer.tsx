@@ -11,7 +11,7 @@ export function Footer() {
         <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
            <Link href="/" className="flex items-center gap-2 font-headline text-xl font-bold text-primary">
             <Star className="size-6" />
-            <span>Minh Hạnh</span>
+            <span>Coach Minh Hạnh</span>
           </Link>
           <div className="flex items-center gap-2">
             <Button variant="ghost" size="icon" asChild>
@@ -33,7 +33,7 @@ export function Footer() {
         </div>
         <div className="mt-6 flex flex-col items-center justify-between gap-4 border-t pt-6 md:flex-row">
             <p className="text-sm text-muted-foreground">
-              &copy; {currentYear} Minh Hạnh. All Rights Reserved.
+              &copy; {currentYear} Coach Minh Hạnh. All Rights Reserved.
             </p>
             <div className="flex items-center gap-4 text-sm">
                 <Button variant="link" className="text-muted-foreground">VI</Button>
