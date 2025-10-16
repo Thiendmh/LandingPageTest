@@ -19,56 +19,56 @@ import { BrainCircuit, Target, Handshake, Users, ClipboardCheck, Building, Gradu
 const leadershipSolutions: SolutionCardProps[] = [
   {
     icon: <BrainCircuit className="size-8 text-primary" />,
-    title: '1:1 Executive Coaching',
-    description: 'Chương trình coaching cá nhân hóa giúp lãnh đạo khai phá tiềm năng, vượt qua thách thức và tối ưu hóa hiệu suất.',
+    title: 'Coaching 1:1 cho lãnh đạo',
+    description: 'Khai mở tiềm năng lãnh đạo, vượt qua thách thức và tối ưu hóa hiệu suất.',
   },
   {
     icon: <Users className="size-8 text-primary" />,
-    title: 'Leadership Team Alignment',
-    description: 'Xây dựng đội ngũ lãnh đạo gắn kết, đồng lòng hướng tới mục tiêu chung và nâng cao năng lực hợp tác chiến lược.',
+    title: 'Gắn kết đội ngũ lãnh đạo',
+    description: 'Xây dựng đội ngũ lãnh đạo đồng lòng, hợp tác hiệu quả vì mục tiêu chung.',
   },
   {
     icon: <Target className="size-8 text-primary" />,
-    title: 'High-Potential Development',
-    description: 'Nuôi dưỡng và phát triển đội ngũ kế cận tài năng, chuẩn bị cho họ những kỹ năng cần thiết cho vai trò lãnh đạo tương lai.',
+    title: 'Phát triển đội ngũ kế cận',
+    description: 'Nuôi dưỡng và phát triển nhân tài, chuẩn bị năng lực cho vai trò lãnh đạo tương lai.',
   },
   {
     icon: <Handshake className="size-8 text-primary" />,
-    title: 'Onboarding Coaching for Leaders',
-    description: 'Hỗ trợ các nhà lãnh đạo mới hội nhập nhanh chóng, xây dựng uy tín và tạo ra tác động tích cực ngay từ những ngày đầu.',
+    title: 'Coaching hội nhập cho lãnh đạo mới',
+    description: 'Hỗ trợ lãnh đạo mới hòa nhập nhanh, tạo tác động tích cực ngay từ đầu.',
   },
   {
     icon: <BotMessageSquare className="size-8 text-primary" />,
-    title: 'Conflict Resolution',
-    description: 'Cung cấp kỹ năng và công cụ để giải quyết mâu thuẫn một cách xây dựng, biến xung đột thành cơ hội phát triển.',
+    title: 'Dàn xếp và giải quyết mâu thuẫn',
+    description: 'Biến xung đột thành cơ hội phát triển đội ngũ thông qua đối thoại xây dựng.',
   },
 ];
 
 const hrLDSolutions: SolutionCardProps[] = [
   {
     icon: <Building className="size-8 text-primary" />,
-    title: 'Building Coaching Culture',
-    description: 'Tư vấn và triển khai lộ trình xây dựng văn hóa coaching trong tổ chức, thúc đẩy sự học hỏi và phát triển liên tục.',
+    title: 'Xây dựng văn hóa Coaching',
+    description: 'Đồng hành cùng tổ chức kiến tạo một môi trường học hỏi và phát triển liên tục.',
   },
   {
     icon: <Briefcase className="size-8 text-primary" />,
-    title: 'L&D Strategy Partnering',
-    description: 'Đồng hành cùng HR L&D với vai trò đối tác chiến lược, thiết kế và thực thi các chương trình phát triển nhân sự hiệu quả.',
+    title: 'Đối tác chiến lược L&D',
+    description: 'Hợp tác với đội ngũ nhân sự để thiết kế và thực thi các chương trình phát triển hiệu quả.',
   },
   {
     icon: <GraduationCap className="size-8 text-primary" />,
-    title: 'Train-the-Trainer / Facilitator',
-    description: 'Đào tạo và cấp chứng chỉ cho đội ngũ giảng viên, người điều phối nội bộ, nâng cao năng lực triển khai chương trình.',
+    title: 'Nâng cao năng lực đội ngũ đào tạo',
+    description: 'Chuyển giao và nâng cao năng lực cho đội ngũ giảng viên, coach và người điều phối nội bộ.',
   },
   {
     icon: <Handshake className="size-8 text-primary" />,
-    title: 'Team Engagement Programs',
-    description: 'Thiết kế các giải pháp sáng tạo và thực tiễn để tăng cường sự gắn kết, tạo động lực và giữ chân nhân tài.',
+    title: 'Gia tăng sự gắn kết nhân viên',
+    description: 'Cùng xây dựng các giải pháp sáng tạo để tạo động lực và giữ chân nhân tài.',
   },
   {
     icon: <ClipboardCheck className="size-8 text-primary" />,
-    title: 'HR Competency Framework',
-    description: 'Xây dựng và áp dụng khung năng lực cho đội ngũ HR, giúp định hình con đường phát triển sự nghiệp rõ ràng và hiệu quả.',
+    title: 'Xây dựng khung năng lực nhân sự',
+    description: 'Đóng vai trò đối tác, giúp định hình lộ trình phát triển sự nghiệp cho đội ngũ nhân sự.',
   },
 ];
 
@@ -85,10 +85,10 @@ export default function Home() {
           <ProfileIntro />
         </AnimatedSection>
         <AnimatedSection>
-          <Solutions id="solutions-leader" title="Giải pháp cho Lãnh đạo, Đội nhóm & Tổ chức" solutions={leadershipSolutions} />
+          <Solutions id="solutions-leader" title="Giải pháp cho Lãnh đạo & Đội nhóm" solutions={leadershipSolutions} />
         </AnimatedSection>
         <AnimatedSection>
-          <Solutions id="solutions-hr" title="Giải pháp cho HR L&D" solutions={hrLDSolutions} />
+          <Solutions id="solutions-hr" title="Giải pháp cho HR & L&D" solutions={hrLDSolutions} />
         </AnimatedSection>
         <AnimatedSection>
           <Experience />

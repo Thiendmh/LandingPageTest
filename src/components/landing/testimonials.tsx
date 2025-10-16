@@ -10,19 +10,19 @@ import Image from 'next/image';
 
 const testimonials = [
   {
-    quote: "Chương trình coaching của Hạnh đã giúp tôi thay đổi hoàn toàn tư duy lãnh đạo. Tôi đã học được cách lắng nghe và trao quyền cho đội ngũ, từ đó hiệu suất cả team tăng vượt bậc.",
+    quote: "Chương trình coaching của Hạnh giúp tôi thay đổi tư duy lãnh đạo. Tôi học được cách lắng nghe và trao quyền, giúp hiệu suất cả team tăng vượt bậc.",
     name: "Nguyễn Văn An",
     title: "CEO, Tech Startup",
     avatar: "https://picsum.photos/seed/avatar1/100/100",
   },
   {
-    quote: "Hạnh là một đối tác L&D tuyệt vời. Chị không chỉ cung cấp giải pháp mà còn thực sự đồng hành, thấu hiểu và giúp chúng tôi xây dựng một văn hóa học hỏi bền vững.",
+    quote: "Hạnh không chỉ là một nhà tư vấn, mà là một đối tác L&D thực thụ. Chị giúp chúng tôi xây dựng một văn hóa học hỏi bền vững từ gốc rễ.",
     name: "Trần Thị Bích",
-    title: "Head of HR, FMCG Corp",
+    title: "Trưởng phòng Nhân sự, Tập đoàn FMCG",
     avatar: "https://picsum.photos/seed/avatar2/100/100",
   },
   {
-    quote: "Buổi coaching 5 giờ sáng thực sự là một trải nghiệm độc đáo. Nó giúp tôi có một không gian tĩnh lặng, tập trung sâu để nhìn lại bản thân và xác định những ưu tiên quan trọng nhất.",
+    quote: "Buổi coaching 5:00 sáng là một trải nghiệm độc đáo. Nó cho tôi không gian tĩnh lặng để nhìn lại bản thân và xác định những ưu tiên quan trọng nhất.",
     name: "Lê Minh Cường",
     title: "Giám đốc Marketing",
     avatar: "https://picsum.photos/seed/avatar3/100/100",
@@ -33,7 +33,7 @@ export function Testimonials() {
   return (
     <section id="testimonials" className="scroll-mt-20 bg-muted py-16 md:py-24">
       <div className="container mx-auto px-4">
-        <h2 className="text-center font-headline text-3xl font-bold md:text-4xl">Khách hàng nói gì?</h2>
+        <h2 className="text-center font-headline text-3xl font-bold md:text-4xl">Người trong cuộc nói gì?</h2>
         <Carousel
           opts={{
             align: "start",

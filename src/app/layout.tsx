@@ -4,9 +4,9 @@ import { Toaster } from '@/components/ui/toaster';
 import { cn } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'Minh Hạnh - Executive Growth Partner',
-  description: 'Executive Coach & HR L&D – đồng hành phát triển bền vững từ bên trong.',
-  keywords: 'executive coach, hr, l&d, leadership development, team coaching, Minh Hạnh',
+  title: 'Coach Minh Hạnh - Executive Coach & HR L&D Partner',
+  description: 'Đồng hành cùng lãnh đạo và đội ngũ nhân sự kiến tạo sự thay đổi bền vững, từ nội lực con người đến sức mạnh của cả tổ chức.',
+  keywords: 'executive coach, hr, l&d, leadership development, team coaching, Minh Hạnh, khai vấn lãnh đạo, văn hóa coaching',
 };
 
 export default function RootLayout({

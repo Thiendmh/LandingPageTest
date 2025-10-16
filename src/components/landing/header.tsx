@@ -10,8 +10,8 @@ import { cn } from '@/lib/utils';
 const navLinks = [
   { href: '#solutions-leader', label: 'Giải pháp' },
   { href: '#experience', label: 'Kinh nghiệm' },
-  { href: '#education', label: 'Học vấn' },
-  { href: '#testimonials', label: 'Testimonials' },
+  { href: '#about', label: 'Về Hạnh' },
+  { href: '#testimonials', label: 'Chia sẻ' },
   { href: '#contact', label: 'Liên hệ' },
 ];
 
@@ -48,7 +48,7 @@ export function Header() {
         </nav>
         <div className="hidden items-center gap-2 md:flex">
           <Button asChild>
-            <Link href="#contact">Đặt lịch 5:00 sáng</Link>
+            <Link href="#contact">Đặt lịch hẹn</Link>
           </Button>
         </div>
         <Sheet open={open} onOpenChange={setOpen}>
@@ -62,7 +62,7 @@ export function Header() {
             <div className="flex flex-col gap-6 p-6">
               <Link href="/" className="flex items-center gap-2 font-headline text-xl font-bold text-primary">
                  <Star className="size-6" />
-                <span>Minh Hạnh</span>
+                <span>Coach Minh Hạnh</span>
               </Link>
               <nav className="flex flex-col gap-4">
                 {navLinks.map((link) => (
@@ -78,7 +78,7 @@ export function Header() {
               </nav>
               <Button asChild className="mt-4">
                 <Link href="#contact" onClick={() => setOpen(false)}>
-                  Đặt lịch 5:00 sáng
+                  Đặt lịch hẹn
                 </Link>
               </Button>
             </div>

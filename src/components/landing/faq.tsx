@@ -7,20 +7,28 @@ import {
 
 const faqs = [
   {
-    question: "Buổi coaching 5:00 sáng có gì đặc biệt?",
-    answer: "Đây là 'giờ vàng' khi tâm trí minh mẫn nhất, không bị xao nhãng bởi công việc hàng ngày. Bắt đầu ngày mới với sự tập trung sâu sắc giúp tạo ra những thay đổi và nhận thức đột phá.",
+    question: "Coaching 1:1 và coaching đội nhóm khác nhau thế nào?",
+    answer: "Coaching 1:1 tập trung vào mục tiêu cá nhân của nhà lãnh đạo. Team coaching giúp cả đội nhóm cải thiện sự phối hợp và cùng đạt mục tiêu chung.",
   },
   {
     question: "Chương trình coaching thường kéo dài bao lâu?",
-    answer: "Một chương trình coaching tiêu chuẩn thường kéo dài từ 3 đến 6 tháng, với các buổi gặp mặt định kỳ (hàng tuần hoặc 2 tuần/lần) để đảm bảo sự tiến bộ và hỗ trợ liên tục.",
+    answer: "Một lộ trình coaching tiêu chuẩn kéo dài từ 3-6 tháng, với các buổi gặp định kỳ để đảm bảo sự tiến bộ và đồng hành liên tục.",
   },
   {
-    question: "Làm thế nào để đo lường hiệu quả coaching?",
-    answer: "Trước khi bắt đầu, chúng ta sẽ cùng nhau xác định các mục tiêu cụ thể và các chỉ số đo lường (KPIs). Hiệu quả được đánh giá dựa trên sự tiến bộ so với các mục tiêu này, cùng với phản hồi 360 độ và tự đánh giá.",
+    question: "Làm sao để đo lường hiệu quả coaching?",
+    answer: "Chúng ta sẽ cùng xác định các mục tiêu và chỉ số đo lường (KPIs) ngay từ đầu. Hiệu quả được đánh giá dựa trên sự tiến bộ so với mục tiêu và phản hồi 360 độ.",
   },
   {
-    question: "Bạn có cung cấp coaching cho đội nhóm không?",
-    answer: "Có, tôi cung cấp các chương trình Team Coaching và workshop để giúp các đội nhóm cải thiện sự gắn kết, giao tiếp hiệu quả và cùng nhau đạt được các mục tiêu chung của tổ chức.",
+    question: "Phong cách coaching của Hạnh là gì?",
+    answer: "Ấm áp, thẳng thắn và tập trung vào kết quả. Hạnh tạo ra một không gian an toàn để bạn khám phá, đồng thời đưa ra những câu hỏi thách thức để bạn bứt phá.",
+  },
+  {
+    question: "Buổi tư vấn đầu tiên có mất phí không?",
+    answer: "Buổi trò chuyện đầu tiên (30-60 phút) hoàn toàn miễn phí, giúp chúng ta tìm hiểu và xem liệu có phù hợp để đồng hành cùng nhau không.",
+  },
+  {
+    question: "Thông tin của tôi có được bảo mật không?",
+    answer: "Tuyệt đối. Mọi thông tin bạn chia sẻ trong các phiên coach đều được cam kết bảo mật hoàn toàn.",
   },
 ];
 

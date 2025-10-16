@@ -20,10 +20,10 @@ export function About() {
             </div>
             <CardContent className="flex flex-col justify-center p-8">
               <p className="text-lg leading-relaxed text-card-foreground/90">
-                Với hơn 15 năm kinh nghiệm trong lĩnh vực nhân sự và phát triển tổ chức tại các tập đoàn đa quốc gia như Ford và Hanesbrands, Hạnh kết hợp sự thấu hiểu sâu sắc về môi trường doanh nghiệp với phương pháp coaching thực chiến. Chị tin rằng sự phát triển bền vững bắt nguồn từ bên trong mỗi cá nhân.
+                Với hơn 15 năm kinh nghiệm trong ngành nhân sự và phát triển tổ chức tại các tập đoàn đa quốc gia như Ford, Hanesbrands, Hạnh kết hợp sự thấu hiểu môi trường doanh nghiệp với phương pháp coaching thực chiến.
               </p>
               <p className="mt-4 text-lg leading-relaxed text-card-foreground/90">
-                Hạnh nổi bật với phong cách ấm áp, thẳng thắn và tập trung vào kết quả thực tế, giúp các nhà lãnh đạo và đội ngũ không chỉ đạt được mục tiêu mà còn khai phá tiềm năng, tạo ra tác động tích cực và lâu dài.
+                Hạnh tin rằng sự phát triển bền vững bắt nguồn từ việc khai phá nội lực của mỗi cá nhân. Phong cách của chị ấm áp, thẳng thắn và tập trung vào kết quả, giúp các nhà lãnh đạo và đội ngũ tạo ra tác động tích cực và lâu dài.
               </p>
             </CardContent>
           </div>

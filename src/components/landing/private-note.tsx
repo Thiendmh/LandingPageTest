@@ -27,12 +27,12 @@ export function PrivateNote() {
     <section id="private-note" className="py-16 md:py-24">
       <div className="container mx-auto max-w-3xl px-4 text-center">
         <CloverIcon />
-        <h2 className="mt-4 font-headline text-3xl font-bold md:text-4xl">Lời nhắn riêng</h2>
+        <h2 className="mt-4 font-headline text-3xl font-bold md:text-4xl">Lời nhắn riêng 🍀</h2>
         <p className="mt-6 text-lg text-foreground/80">
-          Hạnh tin rằng khoảng thời gian 5:00 sáng là lúc chúng ta minh mẫn và tập trung nhất, là "giờ vàng" để kết nối sâu với chính mình. Một buổi hẹn vào lúc này có thể mang lại những đột phá bất ngờ.
+          Hạnh tin rằng khoảng thời gian 5:00 sáng là lúc chúng ta minh mẫn và sáng suốt nhất. Đó là "giờ vàng" để kết nối sâu với chính mình, gạt bỏ những xao lãng và tập trung vào điều quan trọng nhất. Một buổi hẹn vào lúc này có thể mang lại những đột phá bất ngờ.
         </p>
         <p className="mt-4 text-lg text-foreground/80">
-          Mọi chia sẻ của bạn trong các phiên coach đều được cam kết bảo mật tuyệt đối. Đây là không gian an toàn để bạn là chính mình và khám phá.
+          Hạnh mời bạn một buổi trò chuyện 30-60 phút miễn phí để khám phá những mong muốn của bạn. Mọi chia sẻ trong các phiên coach đều được cam kết bảo mật tuyệt đối. Đây là không gian an toàn để bạn là chính mình và tìm thấy câu trả lời bạn đang tìm kiếm.
         </p>
       </div>
     </section>

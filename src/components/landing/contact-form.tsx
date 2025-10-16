@@ -14,12 +14,12 @@ import { useToast } from '@/hooks/use-toast';
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@/components/ui/form';
 
 const contactSchema = z.object({
-  name: z.string().min(2, "Tên phải có ít nhất 2 ký tự."),
+  name: z.string().min(2, "Tên cần ít nhất 2 ký tự."),
   email: z.string().email("Email không hợp lệ."),
   phone: z.string().optional(),
   company: z.string().optional(),
   role: z.string().optional(),
-  message: z.string().min(10, "Tin nhắn phải có ít nhất 10 ký tự."),
+  message: z.string().min(10, "Tin nhắn cần ít nhất 10 ký tự."),
 });
 
 function SubmitButton() {
@@ -74,9 +74,9 @@ export function ContactForm() {
       <div className="container mx-auto px-4">
         <Card className="mx-auto max-w-2xl">
           <CardHeader className="text-center">
-            <CardTitle className="font-headline text-3xl md:text-4xl">Đặt lịch hẹn 5:00 sáng</CardTitle>
+            <CardTitle className="font-headline text-3xl md:text-4xl">Sẵn sàng cho một cuộc trò chuyện?</CardTitle>
             <CardDescription>
-              Hoàn thành form dưới đây để nhận một buổi coaching 1:1 miễn phí (30-60 phút). Hạnh sẽ liên hệ lại với bạn sớm nhất.
+              Hoàn thành form để đặt lịch một buổi tư vấn 1:1 miễn phí (30-60 phút). Hạnh sẽ liên hệ lại với bạn sớm nhất.
             </CardDescription>
           </CardHeader>
           <CardContent>
@@ -87,7 +87,7 @@ export function ContactForm() {
                   name="name"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>Họ và Tên</FormLabel>
+                      <FormLabel>Họ và Tên*</FormLabel>
                       <FormControl>
                         <Input placeholder="Nguyễn Văn An" {...field} />
                       </FormControl>
@@ -100,7 +100,7 @@ export function ContactForm() {
                   name="email"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>Email</FormLabel>
+                      <FormLabel>Email*</FormLabel>
                       <FormControl>
                         <Input type="email" placeholder="email@example.com" {...field} />
                       </FormControl>
@@ -114,7 +114,7 @@ export function ContactForm() {
                     name="phone"
                     render={({ field }) => (
                       <FormItem>
-                        <FormLabel>Số điện thoại (Tùy chọn)</FormLabel>
+                        <FormLabel>Số điện thoại</FormLabel>
                         <FormControl>
                           <Input placeholder="090..." {...field} />
                         </FormControl>
@@ -127,7 +127,7 @@ export function ContactForm() {
                     name="company"
                     render={({ field }) => (
                       <FormItem>
-                        <FormLabel>Công ty (Tùy chọn)</FormLabel>
+                        <FormLabel>Công ty</FormLabel>
                         <FormControl>
                           <Input placeholder="Tên công ty" {...field} />
                         </FormControl>
@@ -141,7 +141,7 @@ export function ContactForm() {
                   name="role"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>Chức vụ (Tùy chọn)</FormLabel>
+                      <FormLabel>Chức vụ</FormLabel>
                       <FormControl>
                         <Input placeholder="Giám đốc, Trưởng phòng..." {...field} />
                       </FormControl>
@@ -154,7 +154,7 @@ export function ContactForm() {
                   name="message"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>Mong muốn của bạn</FormLabel>
+                      <FormLabel>Điều bạn đang quan tâm*</FormLabel>
                       <FormControl>
                         <Textarea placeholder="Tôi muốn cải thiện kỹ năng lãnh đạo..." {...field} rows={4} />
                       </FormControl>
